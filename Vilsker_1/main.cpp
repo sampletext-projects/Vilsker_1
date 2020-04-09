@@ -4,6 +4,14 @@ using namespace std;
 
 int main()
 {
+	setlocale(LC_ALL, "russian");
+	int N1, N2;
+
+	char c;
+	
+	cout << "Выполнила студентка группы УТН-111 Кришпенц Александра" << endl;
+	cout << "Программа вычисления таблицы функции" << endl;
+	
 	for (int n = 5; n <= 20; n += 5)
 	{
 		cout << "Iterations: " << n << endl;
